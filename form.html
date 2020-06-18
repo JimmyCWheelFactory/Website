@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="jimmy.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jimmy C Wheel Factory</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153780010-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153780010-2');
+</script>
+</head>
+<body>
+    <header>
+      <nav class= "main-nav">
+        <ul>
+          <li class="navbar"><a href="index.html"><img class="banner" src="Banner-compressed.jpg" alt=""></a></li>
+          <li class="navbar"> <a href="index.html">Services</li>
+          <li class="navbar"> <a href="about.html"> About</li>
+          <li class="navbar"><a href="http://www.wheelworks.us/LINK.htm" target="blank">Inventory</a></li>
+          <li class="navbar"> <a href="form.html"> Schedule a pickup</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="contact-us">
+        <h2 id="contactus">Schedule a pickup</h2>
+            
+        <!-- Contact Form - sent to a Google Sheet -->
+  <form id='foo'>
+    <p>
+      <label>Contact Name</label> <br>
+      <input class="box" id='name' name='name' type='text'>
+    </p><p>
+      <label>Email Address</label> <br>
+      <input class="box" id='email' name='email' type='email'>
+    </p><p>
+      <label>Phone Number</label> <br>
+      <input class="box" id='phone' name='phone' type='tel'>
+    </p><p>
+      <label>Pickup Address</label> <br>
+      <input class="box" id='address' name='address' type='tel'>
+    </p><p>
+      <label>Message</label> <br>
+      <textarea class="box-last" id='message' name='message' rows='5'></textarea>
+    </p>
+      <div id='success'></div>
+      <button type='submit'>Schedule</button>
+  </form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src='google-sheet.js'></script>    
+
+      
+    </section>
+    <footer class="main-footer">
+        <ul>
+            <li class="footer-link">Hours of Operation: <br> M-F 8AM-6PM <br>Saturday 8am-12pm <br> Sunday Closed</li>
+            <li class="footer-link">Call us: <br><a href="tel:(516)-226-3663">(516)-226-3663</a></li>
+            <li class="footer-link">Visit us:<br> 55 St. Mary's Place,<br> Freeport, NY 11520</li>
+            <li class="footer-link">Email Us:<br> <a href = "mailto: sales@jimmycwheelfactory.com">sales@jimmycwheelfactory.com</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
